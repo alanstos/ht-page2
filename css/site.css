@@ -1,29 +1,37 @@
 body {
 	font-family: "Crimson Text", "Times New Roman", serif;
 	background-color : #F2FFFC;
+	line-height: 1.5;
 	/*width: 970px; 
 	margin : auto;
 	/**font-size: 120%; */
 }
 
 h1, h2 {
-	font-family: "Arial",sans-serif;
+	font-family: "Open Sans Condensed","Arial",sans-serif;
+	font-size: 30px;
 }
 
-main h1 {
+.titulo-principal {
 	color: #FFF;
 	background-color:#851944;
 	text-align: center; 
 	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+	text-transform: uppercase;
 }
 
-main div {
+.container {
 	width: 720px;
 	margin : auto;
+	padding: 30px 0;
 }
 
 p {
 	text-align: justify;
+	margin: 20px 0;
+
 }
 
 blockquote, aside, footer {
@@ -35,14 +43,25 @@ blockquote {
     border: 10px solid #C2CCCA;	
     width: 250px;
     box-sizing : border-box;
+    margin: 20px 40px;
 
     /**border-bottom-color: #333; alterar cor da borda
     border-right-color: #FFF;    **/
 }
 
-aside {
+.navegacao-site {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
+}
+
+.navegacao-site h1 {
+	margin-bottom: 25px;
+}
+
+.navegacao-site a {
+    color: inherit; /*pega a cor do pai - para nao ficar repentindo*/
+    font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none;
 }
 
 footer {
@@ -52,14 +71,70 @@ footer {
 
 nav a {
     color: #F2FFFC;
+    text-transform: lowercase;
 }
 
 main a {
     color: #851944;
 }
 
-aside a {
-    color: inherit; /*pega a cor do pai - para nao ficar repentindo*/
-    font-family: "Open Sans Condensed", sans-serif;
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.icones-redes-sociais li {
+	display: inline-block;
+}
+
+.tags {
+	background-color: inherit;
+	color: inherit;
+}
+
+.tags a {
+	margin-left: 5px;
+}
+
+article {
+	border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+    margin-bottom: 20px;	
+}
+
+.leia-mais {
+	display: block;
+    padding: 8px;
+    margin: 16px;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
     text-decoration: none;
+}
+
+.leia-mais:hover {
+	font-weight: bold;	
+	color: yellow;
+}
+
+.icones-redes-sociais a {
+	display: block;
+	height: 40px;
+	width: 40px;
+	text-indent: -9999px;
+}
+
+.github {
+	background-image: url('../image/github.png');
+}
+
+.twitter {
+	background-image: url('../image/twitter.png');
+}
+
+.linkedin {
+	background-image: url('../image/linkedin.png');
 }

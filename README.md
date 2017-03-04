@@ -38,3 +38,11 @@ ul {
 ul li a {
     color: inherit;
 }
+
+--
+
+No momento, estamos usando o reset do Eric Meyer, mas existem várias alternativas. Uma também bastante famosa é o Normalize, criado por Nicolas Gallagher e Jonathan Neal.
+
+--
+
+display : (inline, block e inline-block , none)

@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div class='first_div'>
+    <p>Content</p>
+    <div class='comment'></div>
+    <div class='comment'></div>
+    <div id='pagination'></div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+
+<script type='text/javascript'>
+
+for(var i = 0; i < 10; i++) {
+    setTimeout(function() {
+        console.log(i);
+    }, 1000);
+}
+
+x = 4 & 3;
+
+console.log(x);
+
+    $(function() {
+        $('#pagination').addClass('comment');
+        $('.first_div .comment').text('value');
+    });
+</script>
+
+</body>
+</html>
