@@ -49,6 +49,11 @@ blockquote {
     border-right-color: #FFF;    **/
 }
 
+cite {
+    font-style: italic;
+    float: right;
+}
+
 .navegacao-site {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
@@ -137,4 +142,39 @@ article {
 
 .linkedin {
 	background-image: url('../image/linkedin.png');
+}
+
+/** floats - organizacao do layout **/
+
+.cite-fiat {
+	float: right;
+}
+
+.cite-petrobras {
+	float: left;
+}
+
+h2 {
+	clear: both;
+}
+
+figure {
+	float: right;
+	width: 20%;
+}
+
+.navegacao-site{
+	float: right;
+	clear: right;
+	width: 20%;
+	box-sizing : border-box;
+}
+
+main {
+	float: left;
+	width: 80%;
+}
+
+footer {
+	clear: both;
 }
