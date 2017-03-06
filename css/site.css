@@ -158,21 +158,25 @@ h2 {
 	clear: both;
 }
 
-figure {
-	float: right;
-	width: 20%;
+.minha-foto {
+	float: right;		
 }
 
 .navegacao-site{
 	float: right;
 	clear: right;
-	width: 20%;
+}
+
+.minha-foto, .navegacao-site{
+	width: 15%;
 	box-sizing : border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
 }
 
 main {
 	float: left;
-	width: 80%;
+	width: 85%;
 }
 
 footer {
