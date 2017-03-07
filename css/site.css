@@ -26,6 +26,7 @@ h1, h2 {
 	width: 720px;
 	margin : auto;
 	padding: 30px 0;
+	padding-bottom: 80px;
 }
 
 p {
@@ -72,6 +73,9 @@ cite {
 footer {
 	background-color: #000;
 	color: #F2FFFC;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 
 nav a {
@@ -159,16 +163,20 @@ h2 {
 }
 
 .minha-foto {
-	float: right;		
+	float: right;	
+	position: absolute;
+	top: 0;
+	right: 0;	
 }
 
 .navegacao-site{
 	float: right;
 	clear: right;
+	width: 15%;
+	margin-top: 310px;
 }
 
 .minha-foto, .navegacao-site{
-	width: 15%;
 	box-sizing : border-box;
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
