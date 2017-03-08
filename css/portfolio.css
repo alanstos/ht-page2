@@ -1,0 +1,22 @@
+
+main h2 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.portfolio li{
+	display: inline-block;
+	width: 45%;
+
+	background-color: #FAFFFC;
+	border: 8px solid black;
+	box-sizing: border-box;
+    padding: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;	
+}
+
+.portfolio img {
+	width: 100%;
+}
+

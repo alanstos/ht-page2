@@ -27,6 +27,7 @@ h1, h2 {
 	margin : auto;
 	padding: 30px 0;
 	padding-bottom: 80px;
+
 }
 
 p {
@@ -39,21 +40,7 @@ blockquote, aside, footer {
     padding: 20px;
 }
 
-blockquote {
-	background-color: #D9E5E3;
-    border: 10px solid #C2CCCA;	
-    width: 250px;
-    box-sizing : border-box;
-    margin: 20px 40px;
 
-    /**border-bottom-color: #333; alterar cor da borda
-    border-right-color: #FFF;    **/
-}
-
-cite {
-    font-style: italic;
-    float: right;
-}
 
 .navegacao-site {
 	background-color: #3C1D3D;
@@ -108,26 +95,7 @@ em {
 	margin-left: 5px;
 }
 
-article {
-	border-bottom: 1px solid #ccc;
-    padding-bottom: 30px;
-    margin-bottom: 20px;	
-}
 
-.leia-mais {
-	display: block;
-    padding: 8px;
-    margin: 16px;
-    font-size: 24px;
-    text-align: center;
-    background-color: #E6E7E8;
-    text-decoration: none;
-}
-
-.leia-mais:hover {
-	font-weight: bold;	
-	color: yellow;
-}
 
 .icones-redes-sociais a {
 	display: block;
